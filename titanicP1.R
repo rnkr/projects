@@ -102,7 +102,7 @@ set.seed(17)
 fit.nn <- train(Survived~., data=dataset, method = 'nnet', metric = metric, hidden = 1, trControl = trainControl )
 
 #Model Tree
-#set.seed(17)
+#set.seed(17 )
 #fit.mt <- train(Survived~., data=dataset, method='M5', metric = metric, trControl = trainControl, na.action = na.exclude )
 
 
